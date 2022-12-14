@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Style.css'
+import Logo from "../../assets/logo.png"
 
 const Index = () => {
   const date= new Date().getFullYear();
@@ -11,7 +12,7 @@ const Index = () => {
       <div className="row">
         <div className="col-xl-4 col-md-4 mb-30">
           <div className="single-cta">
-            <i className="fas fa-map-marker-alt" />
+            <i className="fab fa-map-marker-alt" />
             <div className="cta-text">
               <h4>Find us</h4>
               <span>1010 Avenue, sw 54321, chandigarh</span>
@@ -43,7 +44,7 @@ const Index = () => {
         <div className="col-xl-4 col-lg-4 mb-50">
           <div className="footer-widget">
             <div className="footer-logo">
-              <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo" /></a>
+              <a href="index.html"><img src={Logo} className="img-fluid" alt="logo" /></a>
             </div>
             <div className="footer-text">
               <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing

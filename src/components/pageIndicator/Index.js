@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div>
         <div className="container">
-        <ArrowRight/>
+        <ArrowRight size={30}/>
         <h1>Latest Magazine</h1>
         </div>
     </div>

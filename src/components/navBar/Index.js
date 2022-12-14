@@ -1,13 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Style.css'
+import Logo from "../../assets/logo.png"
 const Index = () => {
   return (
     <div className="nav">
   <input type="checkbox" id="nav-check" />
   <div className="nav-header">
-    <div className="nav-title">
-     The Eye VisibilityMag
+    <div className="logo" >
+     <img src={Logo} alt="logo" />
     </div>
   </div>
   <div className="nav-btn">

@@ -13,8 +13,8 @@ const Index = () => {
       <div className="card box-shadow">
         <img src={Photo3} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 className="card-title">Lorem ipsum dolor</h5>
+          <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi.</p>
           <a href="#" className="btn btn-primary">Read more...</a>
         </div>
       </div>
@@ -23,8 +23,8 @@ const Index = () => {
       <div className="card box-shadow">
         <img src={Photo2} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 className="card-title">Lorem ipsum dolor</h5>
+          <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi..</p>
           <a href="#" className="btn btn-primary">Read more...</a>
         </div>
       </div>
@@ -33,8 +33,8 @@ const Index = () => {
       <div className="card box-shadow">
         <img src={Photo3} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 className="card-title">Lorem ipsum dolor</h5>
+          <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi.</p>
           <a href="#" className="btn btn-primary">Read more...</a>
         </div>
       </div>
