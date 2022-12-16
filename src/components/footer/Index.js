@@ -12,7 +12,7 @@ const Index = () => {
       <div className="row">
         <div className="col-xl-4 col-md-4 mb-30">
           <div className="single-cta">
-            <i className="fa fa-map-marker-alt" />
+            <i className="fa fa-map-marker" />
             <div className="cta-text">
               <h4>Find us</h4>
               <span>1010 Avenue, sw 54321, kigali</span>
@@ -54,7 +54,7 @@ const Index = () => {
               <span>Follow us</span>
               <a href="#"><i className="fa fa-facebook-f facebook-bg" /></a>
               <a href="#"><i className="fa fa-twitter twitter-bg" /></a>
-              <a href="#"><i className="fa fa-google-plus-g google-bg" /></a>
+              <a href="#"><i className="fa fa-google google-bg" /></a>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Index = () => {
             <div className="subscribe-form">
               <form action="#">
                 <input type="text" placeholder="Email Address" />
-                <button><i className="fa fa-telegram-plane" /></button>
+                <button><i className="fa fa-telegram" /></button>
               </form>
             </div>
           </div>
