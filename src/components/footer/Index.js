@@ -12,28 +12,28 @@ const Index = () => {
       <div className="row">
         <div className="col-xl-4 col-md-4 mb-30">
           <div className="single-cta">
-            <i className="fab fa-map-marker-alt" />
+            <i className="fa fa-map-marker-alt" />
             <div className="cta-text">
               <h4>Find us</h4>
-              <span>1010 Avenue, sw 54321, chandigarh</span>
+              <span>1010 Avenue, sw 54321, kigali</span>
             </div>
           </div>
         </div>
         <div className="col-xl-4 col-md-4 mb-30">
           <div className="single-cta">
-            <i className="fas fa-phone" />
+            <i className="fa fa-phone" />
             <div className="cta-text">
               <h4>Call us</h4>
-              <span>9876543210 0</span>
+              <span>+250 785767647</span>
             </div>
           </div>
         </div>
         <div className="col-xl-4 col-md-4 mb-30">
           <div className="single-cta">
-            <i className="far fa-envelope-open" />
+            <i className="fa fa-envelope-open" />
             <div className="cta-text">
               <h4>Mail us</h4>
-              <span>mail@info.com</span>
+              <span>fistonalvin@gmail.com</span>
             </div>
           </div>
         </div>
@@ -52,9 +52,9 @@ const Index = () => {
             </div>
             <div className="footer-social-icon">
               <span>Follow us</span>
-              <a href="#"><i className="fas fa-facebook-f facebook-bg" /></a>
-              <a href="#"><i className="fas fa-twitter twitter-bg" /></a>
-              <a href="#"><i className="fas fa-google-plus-g google-bg" /></a>
+              <a href="#"><i className="fa fa-facebook-f facebook-bg" /></a>
+              <a href="#"><i className="fa fa-twitter twitter-bg" /></a>
+              <a href="#"><i className="fa fa-google-plus-g google-bg" /></a>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Index = () => {
             <div className="subscribe-form">
               <form action="#">
                 <input type="text" placeholder="Email Address" />
-                <button><i className="fas fa-telegram-plane" /></button>
+                <button><i className="fa fa-telegram-plane" /></button>
               </form>
             </div>
           </div>

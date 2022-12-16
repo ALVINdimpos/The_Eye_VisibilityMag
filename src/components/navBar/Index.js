@@ -21,10 +21,9 @@ const Index = () => {
   <div className="nav-links">
     <ul>
       <li><a href="#" target="_blank">Home</a></li>
-      <li><a href="#" target="_blank">About</a></li>
-      <li><a href="#" target="_blank">Services</a></li>
-      <li><a href="#" target="_blank">Portfolio</a></li>
-      <li><a href="#" target="_blank">Contact</a></li>
+      <li><a href="#" target="_blank">About us</a></li>
+      <li><a href="#" target="_blank">Blog</a></li>
+      <li><a href="#" target="_blank">Contact us</a></li>
       <a className="icon">
         <i className="fa fa-twitter" />
         <i className="fa fa-linkedin" />

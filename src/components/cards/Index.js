@@ -15,7 +15,10 @@ const Index = () => {
         <div className="card-body">
           <h5 className="card-title">Lorem ipsum dolor</h5>
           <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi.</p>
-          <a href="#" className="btn btn-primary">Read more...</a>
+          <div className='d-flex gap-2'>
+            <p style={{fontSize:15,marginTop:4}}>Thursday, 8 December 2022</p>
+          <a href="#" className="btn btn-primary ">Read more...</a>
+          </div>
         </div>
       </div>
     </div>
@@ -25,7 +28,10 @@ const Index = () => {
         <div className="card-body">
           <h5 className="card-title">Lorem ipsum dolor</h5>
           <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi..</p>
-          <a href="#" className="btn btn-primary">Read more...</a>
+          <div className='d-flex gap-2'>
+            <p style={{fontSize:15,marginTop:4}}>Thursday, 8 December 2022</p>
+          <a href="#" className="btn btn-primary ">Read more...</a>
+          </div>
         </div>
       </div>
     </div>
@@ -35,7 +41,10 @@ const Index = () => {
         <div className="card-body">
           <h5 className="card-title">Lorem ipsum dolor</h5>
           <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi.</p>
-          <a href="#" className="btn btn-primary">Read more...</a>
+          <div className='d-flex gap-2'>
+            <p style={{fontSize:15,marginTop:4}}>Thursday, 8 December 2022</p>
+          <a href="#" className="btn btn-primary ">Read more...</a>
+          </div>
         </div>
       </div>
     </div>
