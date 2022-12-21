@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Style.css'
-import Photo2 from "../../assets/mag2.jpg"
-import Photo3 from "../../assets/mag3.jpg"
+import Photo2 from "../../assets/slide1.PNG"
+import Photo3 from "../../assets/slide3.PNG"
+import Photo4 from "../../assets/slide4.PNG"
 
 const Index = () => {
   return (
@@ -37,7 +38,7 @@ const Index = () => {
     </div>
     <div className="col-sm-4 py-3 py-sm-0">
       <div className="card box-shadow">
-        <img src={Photo3} className="card-img-top" alt="..." />
+        <img src={Photo4} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Lorem ipsum dolor</h5>
           <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sem nisi.</p>

@@ -33,7 +33,7 @@ const Index = () => {
             <i className="fa fa-envelope-open" />
             <div className="cta-text">
               <h4>Mail us</h4>
-              <span>fistonalvin@gmail.com</span>
+              <span>Visibilitymag@gmail.com</span>
             </div>
           </div>
         </div>

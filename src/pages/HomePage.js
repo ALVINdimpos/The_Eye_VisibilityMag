@@ -8,6 +8,7 @@ const HomePage = () => {
   return (
     <div>
         <NavBar />
+        <h1 className='pt-30'>hhhhhhhhh</h1>
         <Slider />
         <PageIndicator />
         <Card />
