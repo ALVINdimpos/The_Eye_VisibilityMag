@@ -4,8 +4,6 @@ import Photo2 from "../../assets/Capture2.PNG"
 import Photo3 from "../../assets/Capture3.PNG"
 import Photo4 from "../../assets/Capture.PNG"
 
-
-
 export default [
   {
     title: "",
