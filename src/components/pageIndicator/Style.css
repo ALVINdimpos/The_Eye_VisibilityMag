@@ -1,0 +1,28 @@
+.Page_indicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/Page.png");
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    
+}
+.Page_indicator h1{
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+   
+}
+.Page_indicator img{
+    height: 50px;
+    margin: 0.5rem;
+}
+@media (max-width:550px) {
+    .Page_indicator{
+        height: 40vh;
+    }
+}

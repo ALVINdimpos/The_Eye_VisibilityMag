@@ -1,0 +1,8 @@
+.video_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 1rem auto;
+}

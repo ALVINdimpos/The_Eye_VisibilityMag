@@ -15,7 +15,7 @@ const Index = () => {
             <i className="fa fa-map-marker" />
             <div className="cta-text">
               <h4>Find us</h4>
-              <span>1010 Avenue, sw 54321, kigali</span>
+              <span>Remera Nobiscum house</span>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Index = () => {
             <i className="fa fa-phone" />
             <div className="cta-text">
               <h4>Call us</h4>
-              <span>+250 785767647</span>
+              <span>+250 722472140</span>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Index = () => {
             <i className="fa fa-envelope-open" />
             <div className="cta-text">
               <h4>Mail us</h4>
-              <span>Visibilitymag@gmail.com</span>
+              <span>visibilitymag@gmail.com</span>
             </div>
           </div>
         </div>
@@ -47,8 +47,9 @@ const Index = () => {
               <a href="index.html"><img src={Logo} className="img-fluid" alt="logo" /></a>
             </div>
             <div className="footer-text">
-              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                elit,Lorem ipsum dolor sit amet.</p>
+              <p>The Eye Visibility Ltd is an advertising company with footprints in Rwanda supporting
+companies establish a solid brand and reputation through its advertising campaigns using a
+combination of advertising channels.</p>
             </div>
             <div className="footer-social-icon">
               <span>Follow us</span>

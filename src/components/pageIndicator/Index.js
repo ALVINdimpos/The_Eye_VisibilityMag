@@ -1,14 +1,12 @@
 import React from 'react'
-import './Style.css'
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
-const Index = () => {
+import "./Style.css"
+const Index = (props) => {
   return (
-    <div>
-        <div className="container d-flex mt-4 gap-3">
-        <BsFillArrowRightCircleFill size={30} className="mt-1"/>
-        <h3>Latest Magazine</h3>
-        </div>
+    <>
+    <div className='Page_indicator' >
+    <h1>{props.name}</h1>
     </div>
+    </>
   )
 }
 
