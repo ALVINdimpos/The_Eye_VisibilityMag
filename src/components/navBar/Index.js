@@ -27,20 +27,20 @@ const Index = () => {
           </li>
           <li>
             {" "}
-            <NavLink to="/About">About us</NavLink>
+            <NavLink to="/About">ABOUT US</NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="/Blogs">Blog</NavLink>
+            <NavLink to="/Blogs">BLOGS</NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="/Contact">Contact us</NavLink>
+            <NavLink to="/Contact">CONTACT US</NavLink>
           </li>
           <a className="icon">
             <i className="fa fa-twitter" />
             <i className="fa fa-linkedin" />
-            <i className="fa fa-youtube" />
+            <i className="fa fa-google" />
           </a>
         </ul>
       </div>

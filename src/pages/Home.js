@@ -3,7 +3,7 @@ import NavBar from "../components/navBar/Index";
 import Slider from "../components/banner/Slider";
 import Footer from "../components/footer/Index";
 import Card from "../components/cards/Index";
-import './Home.css'
+import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const HomePage = () => {
   return (
@@ -33,8 +33,8 @@ const HomePage = () => {
         <iframe
           width="350"
           height="371"
-          src="https://www.youtube.com/embed/LD6qMqvMpqE"
-          title="Kigali-Gisenyi:Akarasisi kadasanzwe k'aba Rayon bajya guhura na Marine FC"
+          src="https://www.youtube.com/embed/FSrTX5JkBW8"
+          title="Uburakari mu baturage nyuma y'uko Nasho WFC itewe mpaga na Rayon Sports WFC kubera 'Ambulance'"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -42,8 +42,8 @@ const HomePage = () => {
         <iframe
           width="350"
           height="371"
-          src="https://www.youtube.com/embed/LD6qMqvMpqE"
-          title="Kigali-Gisenyi:Akarasisi kadasanzwe k'aba Rayon bajya guhura na Marine FC"
+          src="https://www.youtube.com/embed/vyA6V0yL7Qo"
+          title="Dore uko Perezida Kagame na Madame Jeannette Kagame bashyize Indabo ku Gicumbi Cy'Intwari."
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
