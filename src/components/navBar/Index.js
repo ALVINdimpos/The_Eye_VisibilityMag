@@ -38,9 +38,9 @@ const Index = () => {
             <NavLink to="/Contact">CONTACT US</NavLink>
           </li>
           <a className="icon">
-            <i className="fa fa-twitter" />
-            <i className="fa fa-linkedin" />
-            <i className="fa fa-google" />
+          <a href="https://twitter.com/the_visibility"><i className="fa fa-twitter" /></a>
+          <a href="https://instagram.com/thevisibilitymaga"><i className="fa fa-instagram" /></a>
+          <a href="https://google.com/theeyevisibilitymag.com"> <i className="fa fa-google" /></a> 
           </a>
         </ul>
       </div>
