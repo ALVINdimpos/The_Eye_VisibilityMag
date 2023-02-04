@@ -49,7 +49,7 @@ const HomePage = () => {
           allowfullscreen
         ></iframe>
       </div>
-      <Slider />
+      
       <Footer />
     </div>
   );

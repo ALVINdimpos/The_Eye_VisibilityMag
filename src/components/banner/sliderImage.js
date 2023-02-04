@@ -1,9 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
-import Photo1 from "../../assets/slides1.jpg"
-import Photo2 from "../../assets/slides2.jpg"
+import Photo1 from "../../assets/Capture2.PNG"
+import Photo2 from "../../assets/Capture1.PNG"
 import Photo3 from "../../assets/slides3.jpg"
-import Photo4 from "../../assets/slides4.jpg"
-
 export default [
   {
     title: "",
@@ -19,10 +17,5 @@ export default [
     title: "",
     description: "",
     urls: Photo3,
-  },
-  {
-    title: "",
-    description: "",
-    urls: Photo4,
-  },
+  }
 ];

@@ -1,0 +1,30 @@
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .image-slider {
+      height: 150px;
+    }
+  }
+  
