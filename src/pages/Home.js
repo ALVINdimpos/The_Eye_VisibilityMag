@@ -6,6 +6,7 @@ import IMAG from "../assets/ss1.jpg"
 import IMAG1 from "../assets/ss2.jpg"
 import IMAG2 from "../assets/ss3.jpg"
 import IMAG4 from "../assets/sss4.jpg"
+import IMAG5 from "../assets/sss5.jpg"
 import Card from "../components/cards/Index";
 import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -60,6 +61,7 @@ const HomePage = () => {
       </div>
       <div className="center">
         <img src={IMAG4} alt=""/>
+        <img src={IMAG5} alt=""/>
       </div>
       
       <Footer />
