@@ -2,11 +2,11 @@ import React from "react";
 import NavBar from "../components/navBar/Index";
 import Slider from "../components/banner/Slider";
 import Footer from "../components/footer/Index";
-import IMAG from "../assets/ss1.jpg"
-import IMAG1 from "../assets/ss2.jpg"
-import IMAG2 from "../assets/ss3.jpg"
-import IMAG4 from "../assets/sss4.jpg"
-import IMAG5 from "../assets/sss5.jpg"
+import IMAG from "../assets/ss1.jpg";
+import IMAG1 from "../assets/ss2.jpg";
+import IMAG2 from "../assets/ss3.jpg";
+import IMAG4 from "../assets/sss4.jpg";
+import IMAG5 from "../assets/sss5.jpg";
 import Card from "../components/cards/Index";
 import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -29,8 +29,8 @@ const HomePage = () => {
         <iframe
           width="350"
           height="371"
-          src="https://www.youtube.com/embed/LD6qMqvMpqE"
-          title="Kigali-Gisenyi:Akarasisi kadasanzwe k'aba Rayon bajya guhura na Marine FC"
+          src="https://www.youtube.com/embed/ROTmI0KsKQc"
+          title="Marketing Rwanda as A High-end Ecotourism Destination | HOTEL STAR GRADING  [RDB DOCUMENTARY]"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -38,8 +38,8 @@ const HomePage = () => {
         <iframe
           width="350"
           height="371"
-          src="https://www.youtube.com/embed/FSrTX5JkBW8"
-          title="Uburakari mu baturage nyuma y'uko Nasho WFC itewe mpaga na Rayon Sports WFC kubera 'Ambulance'"
+          src="https://www.youtube.com/embed/wP4AAYn5tqY"
+          title="Welcome to Akagera National Park, Rwanda"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -55,15 +55,15 @@ const HomePage = () => {
         ></iframe>
       </div>
       <div className="image-wraper">
-      <img src={IMAG} alt=""/>
-      <img src={IMAG1} alt=""/>
-      <img src={IMAG2} alt=""/>
+        <img src={IMAG} alt="" />
+        <img src={IMAG1} alt="" />
+        <img src={IMAG2} alt="" />
       </div>
       <div className="center">
-        <img src={IMAG4} alt=""/>
-        <img src={IMAG5} alt=""/>
+        <img src={IMAG4} alt="" />
+        <img src={IMAG5} alt="" />
       </div>
-      
+
       <Footer />
     </div>
   );
