@@ -122,3 +122,11 @@
 .play-pause {
   color: black;
 }
+@media screen and (max-width: 768px) {
+.slide-image{
+  height: 100vh;
+}
+.slide-image img{
+  object-fit: cover;
+}
+}

@@ -127,20 +127,17 @@
       display: block;
       width: 100%;
     }
-
-    /*   */
-
-
-    
       .nav > .nav-links > ul li{
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        width: 100%;
         background-color: #333;
          
       }
       .nav > .nav-links > ul li a{
-          margin-left: 40%;
+        margin-left: -440px;
+        width: auto;
       }
       .nav .nav-links ul a.icon{
         margin-left: 33%;

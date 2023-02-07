@@ -45,3 +45,44 @@
     border-radius: 1rem;
     border-color: black;
 }
+@media screen and (max-width: 768px) {
+    .image-wraper{
+        display: flex;
+    flex-direction: column;
+    }
+    .image-wraper img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 1rem;
+        border-color: black;
+    }
+    .image-wraper img:nth-child(3){
+        object-fit: cover;
+        margin-left: 12px;
+        border-radius: 1rem;
+        border-color: black;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .center img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 1rem;
+        border-color: black;
+    }
+    .video_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .video_wrapper iframe{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 1rem;
+        border-color: black;
+    }
+}

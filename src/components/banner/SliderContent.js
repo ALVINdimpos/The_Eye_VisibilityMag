@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./slider.css"
 function SliderContent({ activeIndex, sliderImage }) {
   return (
     <section>

@@ -45,3 +45,16 @@
   .box:hover, .br{
     border: 2px solid #0EABCC;
   }
+  .box:hover i{
+    color: #0EABCC;
+  }
+  @media screen and (max-width: 768px) {
+    .services_boxes{
+      flex-direction: column;
+    }
+    .box{
+      margin: 1rem 0;
+    }
+  }
+    
+  
