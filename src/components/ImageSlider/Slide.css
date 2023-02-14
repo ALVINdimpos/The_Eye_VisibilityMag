@@ -1,0 +1,11 @@
+.spanStyle{
+  cursor: pointer;
+ color: black;
+background-color: aliceblue;
+padding: 0.5rem;
+border-radius: 8px;
+}
+a{
+    textDecoration:'none'
+}
+

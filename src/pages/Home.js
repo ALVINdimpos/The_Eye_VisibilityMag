@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/navBar/Index";
-import Slider from "../components/banner/Slider";
+import Slider from "../components/ImageSlider/Link";
 import Footer from "../components/footer/Index";
 import IMAG from "../assets/ss1.jpg";
 import IMAG1 from "../assets/ss2.jpg";
