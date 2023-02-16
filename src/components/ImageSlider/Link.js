@@ -2,12 +2,12 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import Slider1 from '../../assets/lelo.jpg';
-import Slider2 from '../../assets/Capture2.PNG';
-import Slider3 from '../../assets/Capture1.PNG';
+import Slider2 from '../../assets/Akagera.PNG';
+import Slider3 from '../../assets/park.png';
 import './Slide.css'
 const divStyle = {
   display: 'flex',
-  marginTop:'2rem',
+  marginTop:'1rem',
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
