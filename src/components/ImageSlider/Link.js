@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import Slider1 from '../../assets/slides3.jpg';
+import Slider1 from '../../assets/lelo.jpg';
 import Slider2 from '../../assets/Capture2.PNG';
 import Slider3 from '../../assets/Capture1.PNG';
 import './Slide.css'
@@ -14,6 +14,8 @@ const divStyle = {
   height: '400px',
   textDecoration:'none'
 }
+
+
 const slideImages = [
   {
     url: Slider1,
@@ -38,7 +40,7 @@ const Slideshow = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})`} } className="slider">
                 <a href={slideImage.link} style={{textDecoration:'none'}}>
                 <span className="spanStyle">{slideImage.caption}</span>
                 </a>

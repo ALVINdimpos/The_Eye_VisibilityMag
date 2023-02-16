@@ -5,5 +5,15 @@ background-color: aliceblue;
 padding: 0.5rem;
 border-radius: 8px;
 }
+.slider{
+  background-size: cover;
+  
+}
+@media  only screen and (max-width: 905px) {
+  .slider{
+    height: 200px;
+  }
+}
+  
 
 
