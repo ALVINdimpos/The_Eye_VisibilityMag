@@ -11,7 +11,9 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px',
+  height: '80vh',
+  width: '100%',
+  maxWidth: '100%',
   textDecoration:'none'
 }
 
