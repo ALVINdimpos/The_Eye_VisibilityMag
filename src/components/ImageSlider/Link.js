@@ -11,10 +11,11 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
   height: '80vh',
   width: '100%',
-  maxWidth: '100%',
-  textDecoration:'none'
+  textDecoration:'none',
+
 }
 
 

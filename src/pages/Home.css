@@ -19,12 +19,12 @@
 .image-wraper img{
     width: 400px;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 1rem;
     border-color: black;
 }
 .image-wraper img:nth-child(3){
-    object-fit: cover;
+    object-fit: contain;
     margin-left: 12px;
     border-radius: 1rem;
     border-color: black;
@@ -41,24 +41,24 @@
 .center img{
     width: 500px;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 1rem;
     border-color: black;
 }
 @media screen and (max-width: 768px) {
     .image-wraper{
-        display: flex;
+    display: flex;
     flex-direction: column;
     }
     .image-wraper img{
         width: 300px;
         height: 400px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 1rem;
         border-color: black;
     }
     .image-wraper img:nth-child(3){
-        object-fit: cover;
+        object-fit: contain;
         margin-left: 12px;
         border-radius: 1rem;
         border-color: black;
@@ -70,7 +70,7 @@
     .center img{
         width: 300px;
         height: 400px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 1rem;
         border-color: black;
     }
