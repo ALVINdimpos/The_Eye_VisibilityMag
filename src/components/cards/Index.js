@@ -3,7 +3,7 @@ import React from 'react'
 import './Style.css'
 import Photo2 from "../../assets/Christams.PNG"
 import Photo3 from "../../assets/gollira.PNG"
-import Photo4 from "../../assets/Akagera.PNG"
+import Photo4 from "../../assets/akagera.jpg"
 
 const Index = () => {
   return (

@@ -129,7 +129,7 @@ const Index = () => {
               <div className="copyright-text">
                 <p>
                   Copyright © {date}, All Right Reserved{" "}
-                  <a href="https://alvinfiston.me/">Alvin</a>
+                  <a href="https://theeyevisibilitymag.com/">theeyevisibilitymag</a>
                 </p>
               </div>
             </div>
