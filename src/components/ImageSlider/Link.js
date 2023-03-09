@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import Slider1 from '../../assets/lelo.jpg';
-import Slider2 from '../../assets/akagera.jpg';
+import Slider2 from '../../assets/anik.png';
 import Slider3 from '../../assets/park.png';
 import './Slide.css'
 const divStyle = {
@@ -10,13 +10,14 @@ const divStyle = {
   marginTop:'1rem',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundSize: 'cover',
+  backgroundSize: '100% 100%',
   backgroundRepeat: 'no-repeat',
-  height: '80vh',
+  backgroundPosition: 'center',
+  height: '100vh',
   width: '100%',
   textDecoration:'none',
-
 }
+
 
 
 const slideImages = [
@@ -27,8 +28,8 @@ const slideImages = [
   },
   {
     url:Slider2 ,
-    caption: 'Akagera bussiness group',
-    link:'http://abgafrica.com/'
+    caption: 'Anik Rwanda',
+    link:'#'
   },
   {
     url:Slider3 ,
