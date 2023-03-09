@@ -13,7 +13,7 @@ const divStyle = {
   backgroundSize: '100% 100%',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center',
-  height: '100vh',
+  height: '90vh',
   width: '100%',
   textDecoration:'none',
 }
@@ -41,7 +41,7 @@ const slideImages = [
 const Slideshow = () => {
     return (
       <div className="slide-container">
-        <Slide>
+        <Slide duration={2000}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
               <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})`} } className="slider">
