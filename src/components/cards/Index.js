@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Style.css'
-import Photo2 from "../../assets/Christams.PNG"
+import Photo2 from "../../assets/valantine.jpg"
 import Photo3 from "../../assets/gollira.PNG"
 import Photo4 from "../../assets/akagera.jpg"
 
@@ -27,8 +27,8 @@ const Index = () => {
       <div className="card box-shadow">
         <img src={Photo2} className="card-img-top h-2" style={{height:200}} alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Father Christmas</h5>
-          <p className="card-text">From his earliest days until the 19th century, father christmas was a strictly allegorical
+          <h5 className="card-title">Who was a saint valantine?</h5>
+          <p className="card-text">From his earliest days until the 19th century, Who was a saint valantine? was a strictly allegorical
 Figure. He was a symbol of the christmas  </p>
           <div className='d-flex gap-2'>
             <p style={{fontSize:15,marginTop:4,display:'none'}}>Thursday, 8 December 2022</p>
@@ -57,5 +57,4 @@ Kia, Fuso, MCV, Foton & Mahindra. </p>
 </div>
   )
 }
-
 export default Index
