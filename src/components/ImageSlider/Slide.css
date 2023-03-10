@@ -12,5 +12,8 @@ border-radius: 8px;
 .slider {
   background-size: cover;
 }
+.lelo_image img {
+  height: 200px;
+}
 
 

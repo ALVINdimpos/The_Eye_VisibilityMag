@@ -35,24 +35,11 @@ const HomePage = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <iframe
-          width="350"
-          height="371"
-          src="https://www.youtube.com/embed/wP4AAYn5tqY"
-          title="Welcome to Akagera National Park, Rwanda"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="350"
-          height="371"
-          src="https://www.youtube.com/embed/vyA6V0yL7Qo"
-          title="Dore uko Perezida Kagame na Madame Jeannette Kagame bashyize Indabo ku Gicumbi Cy'Intwari."
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <iframe width="350" height="371" src="https://www.youtube.com/embed/GQywDPPbZzo" title="President Kagame displays football skills as his team defeats FIFA in Football Delegation Tournament" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="350" height="371" src="https://www.youtube.com/embed/e7LRcXFXPYY" 
+        title="The world of football meets in Kigali! FIFA Congress Opening Ceremony | Kagame 
+        and Infantino remarks" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div className="image-wraper">
         <img src={IMAG} alt="" />

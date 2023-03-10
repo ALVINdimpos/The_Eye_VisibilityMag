@@ -110,9 +110,9 @@ const Index = () => {
                   </p>
                 </div>
                 <div className="subscribe-form">
-                  <form action="#">
-                    <input type="text" placeholder="Email Address" />
-                    <button>
+                  <form action="https://formsubmit.co/el/moloxe" method="POST" >
+                    <input type="email" placeholder="Email Address" name="email"></input>
+                    <button type="submit">
                       <i className="fa fa-telegram" />
                     </button>
                   </form>
