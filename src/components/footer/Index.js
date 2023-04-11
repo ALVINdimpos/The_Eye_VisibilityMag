@@ -14,7 +14,7 @@ const Index = () => {
     
     // make a POST request to the API
     try {
-      const response = await axios.post('https://long-ruby-bunny-yoke.cyclic.app/api/subscribe', {
+      const response = await axios.post('https://long-ruby-bunny-yoke.cyclic.app/api/subcribe', {
         email: formData.get('email')
       });
       console.log(response.data);
