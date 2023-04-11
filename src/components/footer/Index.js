@@ -2,9 +2,37 @@
 import React from "react";
 import "./Style.css";
 import Logo from "../../assets/logo.png";
+import axios from "axios";
 
 const Index = () => {
   const date = new Date().getFullYear();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    
+    // get the form data
+    const formData = new FormData(event.target);
+    
+    // make a POST request to the API
+    try {
+      const response = await axios.post('https://long-ruby-bunny-yoke.cyclic.app/api/subscribe', {
+        email: formData.get('email')
+      });
+      console.log(response.data);
+  
+      // display a success message to the user
+      alert('You have successfully subscribed!');
+  
+      // reset the form fields
+      event.target.reset();
+    } catch (error) {
+      console.error(error);
+  
+      // display an error message to the user
+      alert('There was an error subscribing. Please try again.');
+    }
+  };
+  
+
   return (
     <footer className="footer-section">
       <div className="container">
@@ -110,8 +138,12 @@ const Index = () => {
                   </p>
                 </div>
                 <div className="subscribe-form">
-                  <form action="https://formsubmit.co/el/moloxe" method="POST" >
-                    <input type="email" placeholder="Email Address" name="email"></input>
+                  <form onSubmit={handleSubmit}>
+                    <input
+                      type="email"
+                      placeholder="Email Address"
+                      name="email"
+                    />
                     <button type="submit">
                       <i className="fa fa-telegram" />
                     </button>
@@ -129,7 +161,9 @@ const Index = () => {
               <div className="copyright-text">
                 <p>
                   Copyright © {date}, All Right Reserved{" "}
-                  <a href="https://theeyevisibilitymag.com/">theeyevisibilitymag</a>
+                  <a href="https://theeyevisibilitymag.com/">
+                    theeyevisibilitymag
+                  </a>
                 </p>
               </div>
             </div>

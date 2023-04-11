@@ -49,37 +49,33 @@
     .image-wraper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     .image-wraper img{
-        width: 300px;
-        height: 400px;
-        object-fit: contain;
+        width: 100%;
         border-radius: 1rem;
         border-color: black;
     }
     .image-wraper img:nth-child(3){
-        object-fit: contain;
-        margin-left: 12px;
         border-radius: 1rem;
         border-color: black;
+        width: 90%;
     }
     .center{
         display: flex;
         flex-direction: column;
     }
     .center img{
-        width: 300px;
-        height: 400px;
-        object-fit: contain;
+        width: 90%;
         border-radius: 1rem;
-        border-color: black;
     }
     .video_wrapper{
         display: flex;
         flex-direction: column;
     }
     .video_wrapper iframe{
-        width: 300px;
+        width: 90%;
         height: 400px;
         object-fit: cover;
         border-radius: 1rem;

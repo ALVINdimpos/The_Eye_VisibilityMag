@@ -37,7 +37,7 @@ const Index = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://agile-shelf-97452.herokuapp.com/api/send/mail",
+        "https://long-ruby-bunny-yoke.cyclic.app/api/magquerry/create",
         data
       );
       console.log(res);
