@@ -1,60 +1,34 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import './Style.css'
-import Photo2 from "../../assets/valantine.jpg"
-import Photo3 from "../../assets/gollira.PNG"
-import Photo4 from "../../assets/akagera.jpg"
+import React from 'react';
+import './Style.css';
+import { Link } from 'react-router-dom';
+import blogs from "../../data/blogs.data.js";
 
 const Index = () => {
   return (
-<div className='Card_container'>
- <div className="container">
-  <div className="row">
-    <div className="col-sm-4 py-3 py-sm-0">
-      <div className="card box-shadow">
-        <img src={Photo3} className="card-img-top " style={{height:200}} alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">The Africa's Mountain Gorillas</h5>
-          <p className="card-text">High up in the lush,mist shrouded mountain of East Africa,perched on the edge of the Great Rift Valley</p>
-          <div className='d-flex gap-2'>
-            <p style={{fontSize:15,marginTop:4,display:'none'}}>Thursday, 8 December 2022</p>
-          <a href="#" className="btn btn-primary ">Read more...</a>
-          </div>
+    <div className='Card_container'>
+      <div className="container">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          {blogs.map((blog) => {
+            return (
+              <div key={blog.id} className="col">
+                <div className="card h-100 box-shadow">
+                  <img src={blog.image} className="card-img-top" style={{ height: 200 }} alt="..." />
+                  <div className="card-body">
+                    <h5 className="card-title">{blog.title}</h5>
+                    <p className="card-text">{blog.description.slice(0,200)}</p>
+                    <div className='d-flex gap-2'>
+                      <p style={{ fontSize: 15, marginTop: 4, display: 'none' }}>{}</p>
+                      <Link to={`/ReadMore/${blog.id}`} className="btn btn-primary">Read more...</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
-    <div className="col-sm-4 py-3 py-sm-0">
-      <div className="card box-shadow">
-        <img src={Photo2} className="card-img-top h-2" style={{height:200}} alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Who was a saint valantine?</h5>
-          <p className="card-text">From his earliest days until the 19th century, Who was a saint valantine? was a strictly allegorical
-Figure. He was a symbol of the christmas  </p>
-          <div className='d-flex gap-2'>
-            <p style={{fontSize:15,marginTop:4,display:'none'}}>Thursday, 8 December 2022</p>
-          <a href="#" className="btn btn-primary ">Read more...</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="col-sm-4 py-3 py-sm-0">
-      <div className="card box-shadow">
-        <img src={Photo4} className="card-img-top" style={{height:200}} alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">AKAGERA BUSINESS GROUP
-</h5>
-          <p className="card-text">Established in 1997, Akagera Motors is the exclusive distributor for Mercedes-Benz, Nissan, 
-Kia, Fuso, MCV, Foton & Mahindra. </p>
-          <div className='d-flex gap-2'>
-            <p style={{fontSize:15,marginTop:4,display:'none'}}>Thursday, 8 December 2022</p>
-          <a href="#" className="btn btn-primary ">Read more...</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-  )
-}
-export default Index
+  );
+};
+
+export default Index;

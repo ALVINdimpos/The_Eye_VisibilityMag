@@ -4,6 +4,10 @@ import "./Style.css";
 import Logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
 const Index = () => {
+
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <div className="nav">
       <input type="checkbox" id="nav-check" />
@@ -23,19 +27,19 @@ const Index = () => {
         <ul>
           <li>
             {" "}
-            <NavLink to="/Home">HOME</NavLink>
+            <NavLink to="/Home" onClick={handleLinkClick}>HOME</NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="/About">ABOUT US</NavLink>
+            <NavLink to="/About" onClick={handleLinkClick}>ABOUT US</NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="/Blogs">BLOGS</NavLink>
+            <NavLink to="/Blogs" onClick={handleLinkClick}>BLOGS</NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="/Contact">CONTACT US</NavLink>
+            <NavLink to="/Contact" onClick={handleLinkClick}>CONTACT US</NavLink>
           </li>
           <a className="icon">
           <a href="https://twitter.com/the_visibility"><i className="fa fa-twitter" /></a>
