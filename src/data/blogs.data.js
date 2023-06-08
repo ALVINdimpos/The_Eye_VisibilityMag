@@ -1,5 +1,5 @@
 import Photo2 from "../assets/valantine.jpg"
-import Photo3 from "../assets/gollira.PNG"
+import Photo3 from "../assets/gollira.png"
 import Photo4 from "../assets/akagera.jpg"
 
 // blogs data

@@ -20,14 +20,10 @@
     width: 400px;
     height: 500px;
     object-fit: contain;
-    border-radius: 1rem;
-    border-color: black;
 }
 .image-wraper img:nth-child(3){
     object-fit: contain;
     margin-left: 12px;
-    border-radius: 1rem;
-    border-color: black;
 }
 .center{
     display: flex;
@@ -45,6 +41,9 @@
     border-radius: 1rem;
     border-color: black;
 }
+.image-with-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
 @media screen and (max-width: 768px) {
     .image-wraper{
     display: flex;
