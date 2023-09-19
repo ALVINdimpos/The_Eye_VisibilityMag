@@ -8,6 +8,7 @@ import IMAG2 from "../assets/ss3.jpg";
 import IMAG4 from "../assets/axar.jpg";
 import IMAG5 from "../assets/pic.png";
 import Card from "../components/cards/Index";
+import kglCarRental from "../assets/kglCarRental.jpeg";
 import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const HomePage = () => {
@@ -35,21 +36,37 @@ const HomePage = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <iframe width="350" height="371" src="https://www.youtube.com/embed/GQywDPPbZzo" title="President Kagame displays football skills as his team defeats FIFA in Football Delegation Tournament" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="350" height="371" src="https://www.youtube.com/embed/e7LRcXFXPYY" 
-        title="The world of football meets in Kigali! FIFA Congress Opening Ceremony | Kagame 
-        and Infantino remarks" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-         encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="350"
+          height="371"
+          src="https://www.youtube.com/embed/GQywDPPbZzo"
+          title="President Kagame displays football skills as his team defeats FIFA in Football Delegation Tournament"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="350"
+          height="371"
+          src="https://www.youtube.com/embed/e7LRcXFXPYY"
+          title="The world of football meets in Kigali! FIFA Congress Opening Ceremony | Kagame 
+        and Infantino remarks"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="image-wraper">
-        <img src={IMAG} alt="" className="image-with-shadow"  />
+        <img src={IMAG} alt="" className="image-with-shadow" />
         <img src={IMAG1} alt="" className="image-with-shadow" />
         <img src={IMAG2} alt="" className="image-with-shadow" />
       </div>
-      <div className="center">
-  <img src={IMAG4} alt="" className="image-with-shadow" />
-  <img src={IMAG5} alt="" className="image-with-shadow"  />
-</div>
+      <div className="image-wraper">
+        <img src={IMAG4} alt="" className="image-with-shadow" />
+        <img src={IMAG5} alt="" className="image-with-shadow" />
+        <img src={kglCarRental} alt="" className="image-with-shadow" />
+      </div>
 
       <Footer />
     </div>

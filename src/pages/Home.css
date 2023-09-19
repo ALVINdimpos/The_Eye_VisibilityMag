@@ -1,88 +1,53 @@
-.video_wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    width: 100%;
-    margin: 1rem auto;
-}
-.image-wraper{
+.video_wrapper {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    gap: 1rem;
-    margin: 1rem auto;
-    
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin: 1rem auto;
 }
-.image-wraper img{
-    width: 400px;
-    height: 500px;
-    object-fit: contain;
+.image-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 1rem;
+  margin: 1rem auto;
 }
-.image-wraper img:nth-child(3){
-    object-fit: contain;
-    margin-left: 12px;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    width: 100%;
-    margin: 1rem auto;
-}
-.center img{
-    width: 500px;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 1rem;
-    border-color: black;
-}
-.center img:nth-child(2){
-    object-fit: contain;
-    margin-left: 12px;
-    height: 711px;
+.image-wraper img {
+  height: 500px;
+  object-fit: contain;
 }
 .image-with-shadow {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  }
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
 @media screen and (max-width: 768px) {
-    .image-wraper{
+  .image-wraper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
-    .image-wraper img{
-        width: 100%;
-        border-radius: 1rem;
-        border-color: black;
-    }
-    .image-wraper img:nth-child(3){
-        border-radius: 1rem;
-        border-color: black;
-        width: 90%;
-    }
-    .center{
-        display: flex;
-        flex-direction: column;
-    }
-    .center img{
-        width: 90%;
-        border-radius: 1rem;
-    }
-    .video_wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .video_wrapper iframe{
-        width: 90%;
-        height: 400px;
-        object-fit: cover;
-        border-radius: 1rem;
-        border-color: black;
-    }
+  }
+  .image-wraper img {
+    width: 100%;
+    border-radius: 1rem;
+    border-color: black;
+  }
+  .image-wraper img:nth-child(3) {
+    border-radius: 1rem;
+    border-color: black;
+    width: 90%;
+  }
+  .video_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .video_wrapper iframe {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+    border-color: black;
+  }
 }
