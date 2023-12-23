@@ -2,11 +2,11 @@ import React from "react";
 import NavBar from "../components/navBar/Index";
 import Slider from "../components/ImageSlider/Link";
 import Footer from "../components/footer/Index";
-import IMAG from "../assets/ss1.jpg";
+import IMAG from "../assets/carLental.jpg";
 import IMAG1 from "../assets/ss2.jpg";
 import IMAG2 from "../assets/ss3.jpg";
 import IMAG4 from "../assets/axar.jpg";
-import IMAG5 from "../assets/pic.png";
+import IMAG5 from "../assets/Maga-A4.jpg";
 import Card from "../components/cards/Index";
 import kglCarRental from "../assets/kglCarRental.jpeg";
 import "./Home.css";
@@ -28,7 +28,7 @@ const HomePage = () => {
       </div>
       <div className="video_wrapper">
         <iframe
-          width="350"
+          width="410"
           height="371"
           src="https://www.youtube.com/embed/ROTmI0KsKQc"
           title="Marketing Rwanda as A High-end Ecotourism Destination | HOTEL STAR GRADING  [RDB DOCUMENTARY]"
@@ -37,7 +37,7 @@ const HomePage = () => {
           allowfullscreen
         ></iframe>
         <iframe
-          width="350"
+          width="410"
           height="371"
           src="https://www.youtube.com/embed/GQywDPPbZzo"
           title="President Kagame displays football skills as his team defeats FIFA in Football Delegation Tournament"
@@ -46,7 +46,7 @@ const HomePage = () => {
           allowfullscreen
         ></iframe>
         <iframe
-          width="350"
+          width="410"
           height="371"
           src="https://www.youtube.com/embed/e7LRcXFXPYY"
           title="The world of football meets in Kigali! FIFA Congress Opening Ceremony | Kagame 
@@ -62,7 +62,7 @@ const HomePage = () => {
         <img src={IMAG1} alt="" className="image-with-shadow" />
         <img src={IMAG2} alt="" className="image-with-shadow" />
       </div>
-      <div className="image-wraper">
+      <div className="image-wraper ">
         <img src={IMAG4} alt="" className="image-with-shadow" />
         <img src={IMAG5} alt="" className="image-with-shadow" />
         <img src={kglCarRental} alt="" className="image-with-shadow" />

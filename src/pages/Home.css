@@ -4,20 +4,20 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 100%;
+  width: 90%;
   margin: 1rem auto;
 }
 .image-wraper {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   gap: 1rem;
   margin: 1rem auto;
 }
 .image-wraper img {
   height: 500px;
-  object-fit: contain;
+  width: 600px;
 }
 .image-with-shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
