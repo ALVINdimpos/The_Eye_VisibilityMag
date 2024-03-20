@@ -28,8 +28,8 @@ const slideImages = [
   },
   {
     url:Slider2 ,
-    caption: 'AF Tours & Travels',
-    link:'#'
+    caption: 'KIGALI CAR RENTALS',
+    link:'https://kigalicarrentals.com/'
   },
   {
     url:Slider3 ,
