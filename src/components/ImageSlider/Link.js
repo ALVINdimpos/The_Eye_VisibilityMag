@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import Slider1 from '../../assets/lelo.png';
-import Slider2 from '../../assets/paris.png';
+// import Slider2 from '../../assets/paris.png';
 import Slider3 from '../../assets/park.png';
 import './Slide.css'
 const divStyle = {
