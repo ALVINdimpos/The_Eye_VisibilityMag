@@ -67,7 +67,11 @@ const HomePage = () => {
         <img src={IMAG5} alt="" className="image-with-shadow" />
         <img src={kglCarRental} alt="" className="image-with-shadow" />
       </div>
-
+      <div className="image-wraper ">
+        <img src={ss1} alt="" className="image-with-shadow" />
+        // <img src={IMAG5} alt="" className="image-with-shadow" />
+        // <img src={kglCarRental} alt="" className="image-with-shadow" />
+      </div>
       <Footer />
     </div>
   );
