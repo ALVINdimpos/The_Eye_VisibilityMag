@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import Slider1 from '../../assets/Magazine.png';
+import Slider1 from '../../assets/tronics.png';
 import Slider2 from '../../assets/kigalirent.png';
 import Slider3 from '../../assets/park.png';
 import './Slide.css'
