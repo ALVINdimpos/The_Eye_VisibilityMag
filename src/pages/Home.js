@@ -3,6 +3,7 @@ import NavBar from "../components/navBar/Index";
 import Slider from "../components/ImageSlider/Link";
 import Footer from "../components/footer/Index";
 import IMAG from "../assets/carLental.jpg";
+import IMAG0 from "../assets/ss1.jpg";
 import IMAG1 from "../assets/ss2.jpg";
 import IMAG2 from "../assets/ss3.jpg";
 import IMAG4 from "../assets/axar.jpg";
@@ -68,7 +69,7 @@ const HomePage = () => {
         <img src={kglCarRental} alt="" className="image-with-shadow" />
       </div>
       <div className="image-wraper ">
-        <img src={ss1} alt="" className="image-with-shadow" />
+        <img src={IMAG0} alt="" className="image-with-shadow" />
         // <img src={IMAG5} alt="" className="image-with-shadow" />
         // <img src={kglCarRental} alt="" className="image-with-shadow" />
       </div>
