@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import Slider1 from '../../assets/Magazine cover.png';
+import Slider1 from '../../assets/Magazine.png';
 import Slider2 from '../../assets/kigalirent.png';
 import Slider3 from '../../assets/park.png';
 import './Slide.css'
@@ -23,8 +23,8 @@ const divStyle = {
 const slideImages = [
   {
     url: Slider1,
-    caption: 'Lelo resto bar',
-    link:''
+    caption: 'TRONIC',
+    link: 'https://tronic.rw/'
   },
   {
     url:Slider2 ,
