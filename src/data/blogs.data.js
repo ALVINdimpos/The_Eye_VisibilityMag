@@ -16,11 +16,11 @@ const blogs = [
     },
     {
         id: 2,
-        title: 'How Akagera Business Group Started',
-        description: 'It all started back in 1977, when two entrepreneurial minded Gorajia brothers were seeking a business opportunity in Bujumbura, Burundi. The two brothers came upon a car dealership. With a hard working, determined, passionate and business minded personality, the two Gorajia brothers were able to create the dealership into an automotive power house, which till today stands as one of Burundi’s landmarks. Building on the success of the dealership, manufacturing brands nominated Akagera Motors S.A.R.L as the exclusive distributor for those respective brands for the territory of Rwanda in 1997. As more business ventures were added to the business portfolio, Akagera Motors S.A.R.L was transformed to Akagera Business Group LTD in 2008. Akagera Business Group (ABG) was established in Kigali, Rwanda and diversified into nine different divisions dealing in automobiles, tires, batteries, lubricants, media, consumer goods, consumer electronics, car rentals, hardware, paints, design, construction, security and safety systems.',
+        title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
+        description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position Our Mission: Processing and delivering standardized products and provide high quality services Our Vision: Being influential through providing excellent made in Rwanda products; Being competitive worldwide and Enhance social economic development We are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
         image: Photo4,
         url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
-        date: 'Thursday, 8 December 2022',
+        date: 'Thursday, 9 August 2024',
         category: 'business'
     },
     {
