@@ -15,18 +15,13 @@ const blogs = [
         category: 'react'
     },
     {
-        id: 2,
-        title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
-        description: (
-  <>
-    Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position.
-    <br /><br />
-    <strong>Our Mission:</strong> Processing and delivering standardized products and providing high quality services.
-    <br /><br />
-    <strong>Our Vision:</strong> Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development.
-    <br /><br />
-    We are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.
-  </>
+       id: 2,
+title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
+description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position. Our Mission: Processing and delivering standardized products and providing high quality services. \n\n Our Vision: Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development. \n\nWe are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
+image: Photo4,
+url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
+date: 'Thursday, 9 August 2024',
+category: 'business'
 
     },
     {
