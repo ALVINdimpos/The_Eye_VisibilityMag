@@ -29,11 +29,6 @@ description: (
   </>
 }, 
 
-image: Photo4,
-url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
-date: 'Thursday, 9 August 2024',
-category: 'business'
-
     },
     {
         id: 3,
