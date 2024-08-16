@@ -27,7 +27,8 @@ description: (
     <br /><br />
     We are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.
   </>
-),
+}, 
+
 image: Photo4,
 url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
 date: 'Thursday, 9 August 2024',
