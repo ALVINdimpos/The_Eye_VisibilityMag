@@ -16,8 +16,8 @@ const blogs = [
     },
     {
         id: 2,
-title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
-description: (
+        title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
+        description: (
   <>
     Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position.
     <br /><br />
@@ -27,7 +27,6 @@ description: (
     <br /><br />
     We are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.
   </>
-}, 
 
     },
     {
