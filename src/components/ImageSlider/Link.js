@@ -40,7 +40,7 @@ const slideImages = [
   {
     url:Slider4 ,
     caption: 'Beta Tanks',
-    link:'https://rw.linkedin.com/in/beta-tanks-tanks-5baa22163'
+    link:''
   },
 ];
 
