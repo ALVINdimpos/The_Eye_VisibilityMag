@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css'
 import Slider1 from '../../assets/tronics.png';
 import Slider2 from '../../assets/kigalirent.png';
 import Slider3 from '../../assets/park.png';
+import Slider4 from '../../assets/beta.png';
 import './Slide.css'
 const divStyle = {
   display: 'flex',
@@ -35,6 +36,11 @@ const slideImages = [
     url:Slider3 ,
     caption: 'Park inn',
     link:'https://www.radissonhotels.com/en-us/hotels/park-inn-kigali'
+  },
+  {
+    url:Slider4 ,
+    caption: 'Beta Tanks',
+    link:'https://rw.linkedin.com/in/beta-tanks-tanks-5baa22163'
   },
 ];
 
