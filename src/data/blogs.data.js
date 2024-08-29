@@ -1,6 +1,6 @@
 import Photo2 from "../assets/valantine.jpg"
 import Photo3 from "../assets/NEQ.png"
-import Photo4 from "../assets/Artboard 6-100.jpg"
+import Photo4 from "../assets/Sina.jpg"
 
 // blogs data
 
