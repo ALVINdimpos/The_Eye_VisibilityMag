@@ -5,7 +5,7 @@ import Footer from "../components/footer/Index";
 import IMAG from "../assets/carLental.jpg";
 import IMAG0 from "../assets/ss1.jpg";
 import IMAG1 from "../assets/ss2.jpg";
-import IMAG2 from "../assets/ss3.jpg";
+import IMAG2 from "../assets/artwork.jpg";
 import IMAG4 from "../assets/axar.jpg";
 import IMAG5 from "../assets/Maga-A4.jpg";
 import Card from "../components/cards/Index";
