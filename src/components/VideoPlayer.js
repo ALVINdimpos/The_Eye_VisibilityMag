@@ -1,18 +1,16 @@
 
 // src/components/VideoPlayer.js
 import React from 'react';
+import branding from '../../assets/branding.mp4'; // Import the video file
 
 const VideoPlayer = () => {
-  // Path to the video inside the public/assets folder
-  const videoPath = process.env.PUBLIC_URL + '/assets/branding.mp4';
-
   return (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h2>Video Player</h2>
+      <h2>Branding</h2>
       <video
         width="600"
         controls
-        src={videoPath}
+        src={sampleVideo} // Use the imported video source
         style={{ border: '1px solid #ccc', borderRadius: '8px' }}
       >
         Your browser does not support the video tag.
@@ -22,3 +20,4 @@ const VideoPlayer = () => {
 };
 
 export default VideoPlayer;
+
