@@ -66,7 +66,7 @@ const HomePage = () => {
           <iframe
           width="410"
           height="371"
-          src="https://youtu.be//embed/yzHIoN2VZ8U"
+          src="https://youtu.be/yzHIoN2VZ8U"
           title="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc" 
         and Infantino remarks"
           frameborder="0"
