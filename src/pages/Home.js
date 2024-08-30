@@ -10,6 +10,7 @@ import IMAG4 from "../assets/axar.jpg";
 import IMAG5 from "../assets/Maga-A4.jpg";
 import Card from "../components/cards/Index";
 import kglCarRental from "../assets/kglCarRental.jpeg";
+import VideoPlayer from './components/VideoPlayer';
 import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const HomePage = () => {
