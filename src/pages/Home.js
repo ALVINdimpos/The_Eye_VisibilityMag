@@ -64,8 +64,8 @@ const HomePage = () => {
           title="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write"
-          encrypted-media; gyroscope; picture-in-picture; web-share"
-          // referrerpolicy="strict-origin-when-cross-origin"
+          // encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
          ></iframe>
 
