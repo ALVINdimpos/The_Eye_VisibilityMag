@@ -58,15 +58,16 @@ const HomePage = () => {
           allowfullscreen
         ></iframe>
           <iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/yzHIoN2VZ8U?si=xRpOeY08U5jwf7ib"
-  title="HiFi TRADING SERVICES LTD"
-  frameborder="0"
-  allow="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen
-></iframe>
+          width="410"
+          height="371"
+          src="https://www.youtube.com/embed/yzHIoN2VZ8U?si=xRpOeY08U5jwf7ib"
+          title="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write"
+          encrypted-media; gyroscope; picture-in-picture; web-share"
+          // referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+         ></iframe>
 
       </div>
       <div className="image-wraper">
