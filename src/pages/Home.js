@@ -10,7 +10,6 @@ import IMAG4 from "../assets/axar.jpg";
 import IMAG5 from "../assets/Maga-A4.jpg";
 import Card from "../components/cards/Index";
 import kglCarRental from "../assets/kglCarRental.jpeg";
-import BrandingVideo from "../assets/Branding.mp4";
 import "./Home.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const HomePage = () => {
@@ -29,11 +28,6 @@ const HomePage = () => {
         <h3>Latest Videos</h3>
       </div>
       <div className="video_wrapper">
-        {/* Video Branding */}
-        <video width="410" height="371" controls>
-          <source src={BrandingVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
         <iframe
           width="410"
           height="371"
@@ -64,16 +58,16 @@ const HomePage = () => {
           allowfullscreen
         ></iframe>
           <iframe
-          width="410"
-          height="371"
-          src="https://www.youtube.com/embed/NUSj65B8kTjb5lBA"
-          title="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc" 
-        and Infantino remarks"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write;
-         encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/yzHIoN2VZ8U?si=xRpOeY08U5jwf7ib"
+  title="HiFi TRADING SERVICES LTD"
+  frameborder="0"
+  allow="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
       </div>
       <div className="image-wraper">
         <img src={IMAG} alt="" className="image-with-shadow" />
