@@ -2,8 +2,8 @@ import Photo2 from "../assets/valantine.jpg"
 import Photo3 from "../assets/NEQ.png"
 import Photo4 from "../assets/Artboard 6-100.jpg"
 import Photo5 from "../assets/Afrika.png"
-import Photo6 from "../assets/ai-ethics.jpg"
-import Photo7 from "../assets/space-exploration.jpg"
+import Photo6 from "../assets/advert.jpg"
+import Photo7 from "../assets/advert.jpg"
 
 // blogs data
 
