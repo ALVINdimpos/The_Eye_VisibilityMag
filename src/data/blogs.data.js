@@ -1,10 +1,36 @@
 import Photo2 from "../assets/valantine.jpg"
+import Photo1 from "../assets/Afrika.png
 import Photo3 from "../assets/NEQ.png"
 import Photo4 from "../assets/Artboard 6-100.jpg"
 
 // blogs data
 
 const blogs = [
+    {
+        id: 1,
+        title: 'AFRIKA REQUIES LTD',
+        description: "We pride ourselves on offering personalized, high-quality service that sets us apart
+        from generic, high-volume operators. Our extensive network of local partners
+        the region allows us to provide a diverse array of top-rated experiences, catering to
+        various budgets, comfort levels, and activity preferences. Whether you’re looking to
+        organize a spontaneous group trip, a series of tours, or individual travel plans
+        from guided safaris and city tours to luxury accommodations and authentic
+        cultural experiences—we’re here to share our deep knowledge and passion for
+        Rwanda and East Africa.  We’d love to hear from you and help plan your perfect adventure!
+        - Independent Travel: We craft personalised itineraries for independent travellers,
+        ensuring an enriching exploration of Rwanda at their own pace.
+        Our Services
+        - Group Tours: Our expertly guided group tours offer alluring experiences,
+        showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative
+        and engaging environment.
+        - Business Concierge: Our business concierge services provide support for
+        corporate travellers, from efficient reservations to tailored logistical solutions,
+        allowing you to focus on what matters.",
+        image: Photo1,
+        url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
+        date: 'Thursday, 8 December 2022',
+        category: 'react'
+    },
     {
         id: 1,
         title: 'Who was Saint Valentine?',
@@ -14,14 +40,15 @@ const blogs = [
         date: 'Thursday, 8 December 2022',
         category: 'react'
     },
+    
     {
        id: 2,
-title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
-description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position. Our Mission: Processing and delivering standardized products and providing high quality services. \n\n Our Vision: Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development. \n\nWe are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
-image: Photo4,
-url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
-date: 'Thursday, 9 August 2024',
-category: 'business'
+       title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
+       description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position. Our Mission: Processing and delivering standardized products and providing high quality services. \n\n Our Vision: Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development. \n\nWe are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
+       image: Photo4,
+       url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
+       date: 'Thursday, 9 August 2024',
+       category: 'business'
 
     },
     {
