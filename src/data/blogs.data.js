@@ -1,5 +1,5 @@
 import Photo2 from "../assets/valantine.jpg";
-import Photo1 from "../assets/Afrika.png";
+import Photo5 from "../assets/Afrika.png";
 import Photo3 from "../assets/NEQ.png";
 import Photo4 from "../assets/Artboard6-100.jpg";
 
@@ -7,26 +7,25 @@ import Photo4 from "../assets/Artboard6-100.jpg";
 
 const blogs = [
     {
-        id: 1,
+        id: 5,
         title: 'AFRIKA REQUIES LTD',
-        description: `We pride ourselves on offering personalized, high-quality service that sets us apart
-        from generic, high-volume operators. Our extensive network of local partners in
-        the region allows us to provide a diverse array of top-rated experiences, catering to
-        various budgets, comfort levels, and activity preferences. Whether you’re looking to
+        description: 'We pride ourselves on offering personalized, high-quality service that sets us apart
+        from generic, high-volume operators. Our extensive network of regional local partners allows us to provide a diverse array of top-rated experiences, catering to
+        various budgets, comfort levels, and activity preferences. Whether you re looking to
         organize a spontaneous group trip, a series of tours, or individual travel plans
         from guided safaris and city tours to luxury accommodations and authentic
         cultural experiences—we’re here to share our deep knowledge and passion for
-        Rwanda and East Africa.  We’d love to hear from you and help plan your perfect adventure!
-        - Independent Travel: We craft personalised itineraries for independent travellers,
+        Rwanda and East Africa.  we would love to hear from you and help plan your perfect adventure!
+        - Independent Travel: We craft personalized itineraries for independent travelers,
         ensuring an enriching exploration of Rwanda at their own pace.
         Our Services:
         - Group Tours: Our expertly guided group tours offer alluring experiences,
-        showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative
+        showcasing Rwanda vibrant culture and stunning landscapes in a collaborative
         and engaging environment.
         - Business Concierge: Our business concierge services provide support for
-        corporate travellers, from efficient reservations to tailored logistical solutions,
-        allowing you to focus on what matters.`,
-        image: Photo1,
+        corporate travelers, from efficient reservations to tailored logistical solutions,
+        allowing you to focus on what matters.',
+        image: Photo5,
         url: 'https://afrikarequies.com/',
         date: 'Friday, 20 September 2024',
         category: 'Business'
