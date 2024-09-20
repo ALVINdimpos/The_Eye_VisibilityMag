@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <h1 className="pt-30">hhhhhhhhh</h1>
+      <h1 className="pt-30">Live-Environment</h1>
       <Slider />
       <div className="container d-flex mt-4 gap-3">
         <BsFillArrowRightCircleFill size={30} className="mt-1" />
@@ -60,7 +60,7 @@ const HomePage = () => {
           width="410"
           height="371"
           src="https://www.youtube.com/embed/yzHIoN2VZ8U?si=xRpOeY08U5jwf7ib"
-          title="We are HIFI TRADING SERVICES LTD. is shop located in Kigali under gloria hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
+          title="We are HIFI TRADING SERVICES LTD. is a shop located in Kigali under Gloria Hotel, it sells Technology equipment such as: Computer and accessories, Smart TV, Digital TV, etc"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write"
           // encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -78,9 +78,6 @@ const HomePage = () => {
         <img src={IMAG4} alt="" className="image-with-shadow" />
         <img src={IMAG5} alt="" className="image-with-shadow" />
         <img src={kglCarRental} alt="" className="image-with-shadow" />
-      </div>
-      <div className="image-wraper ">
-        <img src={} alt="" className="image-with-shadow" />
       </div>
       <Footer />
     </div>
