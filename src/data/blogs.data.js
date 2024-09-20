@@ -2,8 +2,8 @@ import Photo2 from "../assets/valantine.jpg"
 import Photo3 from "../assets/NEQ.png"
 import Photo4 from "../assets/Artboard 6-100.jpg"
 import Photo5 from "../assets/Afrika.png"
-import Photo6 from "../assets/advert.jpg"
-import Photo7 from "../assets/advert.jpg"
+import Photo6 from "../assets/advertise.jpg"
+import Photo7 from "../assets/advertise.jpg"
 
 // blogs data
 
@@ -49,8 +49,8 @@ const blogs = [
   
     {
         id: 5,
-        title: "The Ethics of AI: Navigating the Future of Technology",
-        description: "As artificial intelligence continues to advance at an unprecedented pace, we find ourselves at a critical juncture where the ethical implications of these technologies can no longer be ignored. From autonomous vehicles making split-second decisions to AI-powered hiring systems influencing career opportunities, the reach of AI into our daily lives raises profound questions about fairness, accountability, and human values. Key concerns include algorithmic bias, which can perpetuate and even amplify societal inequalities, and the challenge of maintaining privacy in an age of data-hungry AI systems. Moreover, as AI systems become more sophisticated, questions about consciousness, rights, and the very nature of intelligence come to the forefront. Addressing these ethical challenges requires a multidisciplinary approach, bringing together technologists, philosophers, policymakers, and the public to create frameworks that ensure AI development aligns with human values and societal well-being.",
+        title: "Advertise with Us: Grow Your Reach Today",
+        description: "Partner with us and showcase your brand to a wide, engaged audience. With our platform, you'll have the opportunity to connect with users who care about causes that matter. Maximize your impact and drive more engagement through targeted advertising.",
         image: Photo6,
         url: "https://example.com/ethics-of-ai",
         date: "Friday, 15 November 2024",
@@ -58,8 +58,8 @@ const blogs = [
     },
     {
         id: 6,
-        title: "The New Era of Space Exploration: Mars and Beyond",
-        description: "We stand on the brink of a new golden age of space exploration, with our sights set firmly on Mars and the possibilities that lie beyond. Recent advancements in rocket technology, coupled with growing private sector involvement, have reinvigorated humanity's push to become a multi-planetary species. SpaceX's Starship, NASA's Artemis program, and international collaborations are paving the way for sustained human presence on the Moon, serving as a stepping stone to Mars. The red planet offers not just the potential for scientific discovery, but also challenges us to develop technologies that could prove crucial for Earth's future, such as advanced life support systems and radiation protection. Beyond Mars, the moons of Jupiter and Saturn tantalize with the possibility of extraterrestrial life, while exoplanets in distant solar systems spark our imagination about worlds beyond our own. As we venture further into space, we not only expand our understanding of the universe but also gain new perspectives on our own planet, potentially unlocking solutions to global challenges like climate change and resource scarcity.",
+        title: "Advertise with Us: Grow Your Reach Today",
+        description: "Partner with us and showcase your brand to a wide, engaged audience. With our platform, you'll have the opportunity to connect with users who care about causes that matter. Maximize your impact and drive more engagement through targeted advertising.",
         image: Photo7,
         url: "https://example.com/space-exploration-new-era",
         date: "Tuesday, 3 December 2024",
