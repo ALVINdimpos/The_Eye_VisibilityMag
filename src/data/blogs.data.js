@@ -1,5 +1,4 @@
 import Photo2 from "../assets/valantine.jpg";
-import Photo5 from "../assets/Afrika.png";
 import Photo3 from "../assets/NEQ.png";
 import Photo4 from "../assets/Artboard6-100.jpg";
 
