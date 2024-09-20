@@ -7,7 +7,7 @@ import Photo4 from "../assets/Artboard6-100.jpg";
 const blogs = [
     
     {
-        id: 2,
+        id: 1,
         title: 'Who was Saint Valentine?',
         description: `Valentine was a Christian priest in Rome. He knew from the Bible that marriage was good and honored by God. He knew that marriage was lawful according to the Christian faith, so he took it upon himself to perform Christian marriages—contrary to the law. As a priest, he performed secret marriages for couples who desired to be married, bravely defying the anti-marriage edict. It wasn’t just marriages that Valentine was working on. He was also trying to protect persecuted Christians who were being chased down and hunted by aggressive Roman leaders. Christians knew that they could flee to Valentine to find protection. Valentine was taking a huge risk. Not only was it absolutely forbidden to marry or to perform marriages, but it was also a criminal offense to aid or abet Christians—especially ones whom the Roman Empire had on their hit list! Valentine was enmeshed in what the Roman Empire considered high treason and traitorous activity. Although he was being loyal to his faith, he was flying in the face of Roman law. The Roman government hunted him down and locked him up in prison. Now, Valentine—protector of Christians and performer of marriages—was himself suffering for his love and devotion to God.`,
         image: Photo2,
