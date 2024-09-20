@@ -9,7 +9,7 @@ import Photo7 from "../assets/advert.jpg"
 
 const blogs = [
     {
-        id: 1,
+        id: 4,
         title: 'Who was Saint Valentine?',
         description: "Valentine was a Christian priest in Rome. He knew from the Bible that marriage was good and honored by God. He knew that marriage was lawful according to the Christian faith, so he took it upon himself to perform Christian marriages—contrary to the law. As a priest, he performed secret marriages for couples who desired to be married bravely defying the anti-marriage edict. It wasn't just marriages that Valentine was working on. He was also trying to protect persecuted Christians who were being chased down and haunted by the aggressive Roman leaders. Christians knew that they could flee to Valentine to find protection. Valentine was taking a huge risk. Not only was it absolutely forbidden to marry or to perform marriages, but it was also a criminal offense to aid or abet Christians—especially ones whom the Roman Empire had on their hit list! Valentine was enmeshed in what the Roman Empire considered high treason and traitorous activity. Although he was being loyal to his faith, he was flying in the face of Roman law. The Roman government hunted him down and locked him up in prison. Now, Valentine—protector of Christians and performer of marriages—was himself suffering for his love and devotion to God.",
         image: Photo2,
@@ -38,9 +38,26 @@ const blogs = [
         category: "travel"
     },
     {
-        id: 4,
-        title: "The Rise of Artificial Intelligence in Modern Society",
-        description: "Artificial Intelligence (AI) has become an integral part of our daily lives, revolutionizing various industries and reshaping the way we interact with technology. From voice assistants like Siri and Alexa to complex algorithms powering social media feeds and recommendation systems, AI is everywhere. This rapid advancement has brought both excitement and concern. On one hand, AI has the potential to solve complex problems, enhance productivity, and improve decision-making processes. On the other hand, it raises ethical questions about privacy, job displacement, and the potential for AI to surpass human intelligence. As we continue to develop and integrate AI into our society, it's crucial to consider both its benefits and potential drawbacks, ensuring that we harness its power responsibly and ethically.",
+        id: 1,
+        title: "AFRIKA REQUIES LTD",
+        description: "We pride ourselves on offering personalized, high-quality service that sets us apart
+from generic, high-volume operators. Our extensive network of local partners
+the region allows us to provide a diverse array of top-rated experiences, catering to
+various budgets, comfort levels, and activity preferences. Whether you’re looking to
+organize a spontaneous group trip, a series of tours, or individual travel plans
+from guided safaris and city tours to luxury accommodations and authentic
+cultural experiences—we’re here to share our deep knowledge and passion for
+Rwanda and East Africa.
+We’d love to hear from you and help plan your perfect adventure!
+- Independent Travel: We craft personalised itineraries for independent travellers,
+ ensuring an enriching exploration of Rwanda at their own pace.
+Our Services
+- Group Tours: Our expertly guided group tours offer alluring experiences,
+ showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative
+ and engaging environment.
+- Business Concierge: Our business concierge services provide support for
+ corporate travellers, from efficient reservations to tailored logistical solutions,
+ allowing you to focus on what matters.",
         image: Photo5,
         url: "https://example.com/ai-in-modern-society",
         date: "Monday, 23 September 2024",
