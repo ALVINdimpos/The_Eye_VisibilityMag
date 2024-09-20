@@ -37,31 +37,14 @@ const blogs = [
         date: "Thursday, 8 December 2022",
         category: "travel"
     },
-    {
+   {
         id: 1,
         title: "AFRIKA REQUIES LTD",
-        description: "We pride ourselves on offering personalized, high-quality service that sets us apart
-from generic, high-volume operators. Our extensive network of local partners
-the region allows us to provide a diverse array of top-rated experiences, catering to
-various budgets, comfort levels, and activity preferences. Whether you’re looking to
-organize a spontaneous group trip, a series of tours, or individual travel plans
-from guided safaris and city tours to luxury accommodations and authentic
-cultural experiences—we’re here to share our deep knowledge and passion for
-Rwanda and East Africa.
-We’d love to hear from you and help plan your perfect adventure!
-- Independent Travel: We craft personalised itineraries for independent travellers,
- ensuring an enriching exploration of Rwanda at their own pace.
-Our Services
-- Group Tours: Our expertly guided group tours offer alluring experiences,
- showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative
- and engaging environment.
-- Business Concierge: Our business concierge services provide support for
- corporate travellers, from efficient reservations to tailored logistical solutions,
- allowing you to focus on what matters.",
+        description: "We pride ourselves on offering personalized, high-quality service that sets us apart from generic, high-volume operators. Our extensive network of local partners in the region allows us to provide a diverse array of top-rated experiences, catering to various budgets, comfort levels, and activity preferences. Whether you're looking to organize a spontaneous group trip, a series of tours, or individual travel plans—from guided safaris and city tours to luxury accommodations and authentic cultural experiences—we're here to share our deep knowledge and passion for Rwanda and East Africa.\n\nWe'd love to hear from you and help plan your perfect adventure!\n\nOur Services:\n- Independent Travel: We craft personalised itineraries for independent travellers, ensuring an enriching exploration of Rwanda at their own pace.\n- Group Tours: Our expertly guided group tours offer alluring experiences, showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative and engaging environment.\n- Business Concierge: Our business concierge services provide support for corporate travellers, from efficient reservations to tailored logistical solutions, allowing you to focus on what matters.",
         image: Photo5,
-        url: "https://example.com/ai-in-modern-society",
+        url: "https://afrikarequies.com",
         date: "Monday, 23 September 2024",
-        category: "technology"
+        category: "travel"
     },
     {
         id: 5,
