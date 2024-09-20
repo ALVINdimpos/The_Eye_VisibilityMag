@@ -9,22 +9,24 @@ import Photo7 from "../assets/advert.jpg"
 
 const blogs = [
     {
-       id: 1,
-       title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
-       description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position. Our Mission: Processing and delivering standardized products and providing high quality services. \n\n Our Vision: Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development. \n\nWe are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
-       image: Photo4,
-       url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
-       date: 'Thursday, 9 August 2024',
-       category: 'business'
-    },
-    {
-        id: 2,
+        id: 1,
         title: 'Who was Saint Valentine?',
         description: "Valentine was a Christian priest in Rome. He knew from the Bible that marriage was good and honored by God. He knew that marriage was lawful according to the Christian faith, so he took it upon himself to perform Christian marriages—contrary to the law. As a priest, he performed secret marriages for couples who desired to be married bravely defying the anti-marriage edict. It wasn't just marriages that Valentine was working on. He was also trying to protect persecuted Christians who were being chased down and haunted by the aggressive Roman leaders. Christians knew that they could flee to Valentine to find protection. Valentine was taking a huge risk. Not only was it absolutely forbidden to marry or to perform marriages, but it was also a criminal offense to aid or abet Christians—especially ones whom the Roman Empire had on their hit list! Valentine was enmeshed in what the Roman Empire considered high treason and traitorous activity. Although he was being loyal to his faith, he was flying in the face of Roman law. The Roman government hunted him down and locked him up in prison. Now, Valentine—protector of Christians and performer of marriages—was himself suffering for his love and devotion to God.",
         image: Photo2,
         url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
         date: 'Thursday, 8 December 2022',
         category: 'react'
+    },
+    
+    {
+       id: 2,
+       title: 'SINA GERARD/Ese URWIBUTSO Is oriented towards agro-processing industry sector.',
+       description: 'Our successful track record of innovation & expertise demonstrates our commitment to launching innovative products every year in order to improve our customer relationships & boost our market position. Our Mission: Processing and delivering standardized products and providing high quality services. \n\n Our Vision: Being influential through providing excellent made-in-Rwanda products; Being competitive worldwide and Enhancing social economic development. \n\nWe are located at Nyirangarama in Rulindo District, Northern Province about 45 Km from Kigali City, on Kigali Musanze – Rubavu main road.',
+       image: Photo4,
+       url: 'https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889',
+       date: 'Thursday, 9 August 2024',
+       category: 'business'
+
     },
     {
         id: 3,
@@ -65,5 +67,3 @@ const blogs = [
 ];
 
 export default blogs;
-
-Version 2 of 2
