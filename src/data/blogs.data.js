@@ -10,7 +10,7 @@ import Photo7 from "../assets/advertise.jpg"
 const blogs = [
       {
         id: 4,
-        title: "AFRIKA REQUIES LTD",
+        title: "AFRIKA REQUIES LTD Destination Management Company",
         description: "We pride ourselves on offering personalized, high-quality service that sets us apart from generic, high-volume operators. Our extensive network of local partners in the region allows us to provide a diverse array of top-rated experiences, catering to various budgets, comfort levels, and activity preferences. Whether you're looking to organize a spontaneous group trip, a series of tours, or individual travel plans—from guided safaris and city tours to luxury accommodations and authentic cultural experiences—we're here to share our deep knowledge and passion for Rwanda and East Africa.\n\nWe'd love to hear from you and help plan your perfect adventure!\n\nOur Services:\n\n- Independent Travel: We craft personalised itineraries for independent travellers, ensuring an enriching exploration of Rwanda at their own pace.\n\n- Group Tours: Our expertly guided group tours offer alluring experiences, showcasing Rwanda's vibrant culture and stunning landscapes in a collaborative and engaging environment.\n\n- Business Concierge: Our business concierge services provide support for corporate travellers, from efficient reservations to tailored logistical solutions, allowing you to focus on what matters.",
         image: Photo5,
         url: "https://afrikarequies.com",
