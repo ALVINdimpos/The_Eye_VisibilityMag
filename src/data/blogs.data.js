@@ -1,6 +1,7 @@
 import Photo2 from "../assets/valantine.jpg"
 import Photo3 from "../assets/NEQ.png"
 import Photo4 from "../assets/Artboard 6-100.jpg"
+import Photo5 from "../assets/Afrika.png"
 
 // blogs data
 
@@ -33,7 +34,16 @@ const blogs = [
         url: "https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889",
         date: "Thursday, 8 December 2022",
         category: "travel"
-      }
+      },
+    {
+        id: 4,
+        title: "The Rise of Artificial Intelligence in Modern Society",
+        description: "Artificial Intelligence (AI) has become an integral part of our daily lives, revolutionizing various industries and reshaping the way we interact with technology. From voice assistants like Siri and Alexa to complex algorithms powering social media feeds and recommendation systems, AI is everywhere. This rapid advancement has brought both excitement and concern. On one hand, AI has the potential to solve complex problems, enhance productivity, and improve decision-making processes. On the other hand, it raises ethical questions about privacy, job displacement, and the potential for AI to surpass human intelligence. As we continue to develop and integrate AI into our society, it's crucial to consider both its benefits and potential drawbacks, ensuring that we harness its power responsibly and ethically.",
+        image: Photo5,
+        url: "https://example.com/ai-in-modern-society",
+        date: "Monday, 23 September 2024",
+        category: "technology"
+    }
       
       
 ];
