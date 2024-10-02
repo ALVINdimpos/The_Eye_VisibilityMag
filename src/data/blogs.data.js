@@ -2,8 +2,9 @@ import Photo2 from "../assets/valantine.jpg"
 import Photo3 from "../assets/NEQ.png"
 import Photo4 from "../assets/Artboard 6-100.jpg"
 import Photo5 from "../assets/Afrika.png"
-import Photo6 from "../assets/advertise.jpg"
-import Photo7 from "../assets/advertise.jpg"
+import Photo6 from "../assets/Rwanda.jpg"
+import Photo7 from "../assets/Rwanda.jpg"
+
 
 // blogs data
 
@@ -49,8 +50,8 @@ const blogs = [
   
     {
         id: 5,
-        title: "Advertise with Us: Grow Your Reach Today",
-        description: "Partner with us and showcase your brand to a wide, engaged audience. With our platform, you'll have the opportunity to connect with users who care about causes that matter. Maximize your impact and drive more engagement through targeted advertising.",
+        title: "Rwanda known as the land of a thousand hills",
+        description: "Rwanda known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly people offer unique experiences in one of the most remarkable countries in the world. It is blessed with extraordinary biodiversity, with incredible wildlife living throughout its volcanoes, montane rainforest and sweeping plains. Rwanda known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly people offer unique experiences in one of the most remarkable countries in the world. It is blessed with extraordinary biodiversity, with incredible wildlife living throughout its volcanoes, montane rainforest and sweeping plains.",
         image: Photo6,
         url: "https://example.com/ethics-of-ai",
         date: "Friday, 15 November 2024",
@@ -58,8 +59,8 @@ const blogs = [
     },
     {
         id: 6,
-        title: "Advertise with Us: Grow Your Reach Today",
-        description: "Partner with us and showcase your brand to a wide, engaged audience. With our platform, you'll have the opportunity to connect with users who care about causes that matter. Maximize your impact and drive more engagement through targeted advertising.",
+        title: "Rwanda known as the land of a thousand hills",
+        description: "Rwanda known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly people offer unique experiences in one of the most remarkable countries in the world. It is blessed with extraordinary biodiversity, with incredible wildlife living throughout its volcanoes, montane rainforest and sweeping plains. Warm and friendly, Rwandans are also respectful, thoughtful and committed to the idea of progress, starting at the grass roots and running all the way to the top.",
         image: Photo7,
         url: "https://example.com/space-exploration-new-era",
         date: "Tuesday, 3 December 2024",
